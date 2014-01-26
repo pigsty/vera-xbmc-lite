@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:XBMC:1</deviceType>
+    <friendlyName>XBMCLite</friendlyName>
+    <manufacturer>XBMC</manufacturer>
+    <manufacturerURL></manufacturerURL>
+    <modelDescription>XBMCLite</modelDescription>
+    <modelName>XBMCLite</modelName>
+    <modelNumber>1.0</modelNumber>
+    <protocol>raw</protocol>
+    <handleChildren>0</handleChildren>
+  <serviceList>
+      <service>
+			<serviceType>urn:micasaverde-com:service:MenuNavigation:1</serviceType>
+			<serviceId>urn:micasaverde-com:serviceId:MenuNavigation1</serviceId>
+			<SCPDURL>S_MenuNavigation1.xml</SCPDURL>
+		</service>
+		<service>
+				<serviceType>urn:micasaverde-com:service:MediaNavigation:1</serviceType>
+				<serviceId>urn:micasaverde-com:serviceId:MediaNavigation1</serviceId>
+				<SCPDURL>S_MediaNavigation1.xml</SCPDURL>
+			</service>
+			<service>
+				<serviceType>urn:micasaverde-com:service:Misc:1</serviceType>
+				<serviceId>urn:micasaverde-com:serviceId:Misc1</serviceId>
+				<SCPDURL>S_Misc1.xml</SCPDURL>
+			</service>
+    </serviceList>
+    <implementationList>
+      <implementationFile>I_XBMCLite.xml</implementationFile>
+    </implementationList>
+  </device>
+</root>
+ 
+ 
